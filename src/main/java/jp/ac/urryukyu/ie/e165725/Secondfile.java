@@ -22,13 +22,11 @@ public class Secondfile {
             String line;
             for(int i = 0;i<=28;i++) {
                 while ((line = br.readLine()) != null) {
-                    //System.out.println(line);
                     list1[i]=line;
-                    //System.out.printf("%s\n",list1[i]);
                     break;
                 }
             }
-            System.out.printf("攻撃カード\n");
+            System.out.printf("###攻撃カード###\n");
             int make_hatokura=0;
             for(int i=0;i<=2;i++) {
                 make_hatokura = (int) (Math.random() * 28);

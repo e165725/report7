@@ -9,5 +9,7 @@ public class Main {
         firstfile.fileRead("/Users/okuhamamasakiyo/IdeaProjects/report7/src/main/java/jp/ac/urryukyu/ie/e165725/list1.txt");
         Secondfile secondfile = new Secondfile();
         secondfile.fileRead("/Users/okuhamamasakiyo/IdeaProjects/report7/src/main/java/jp/ac/urryukyu/ie/e165725/list2.txt");
+        Thirdfile thirdfile = new Thirdfile();
+        thirdfile.fileRead("/Users/okuhamamasakiyo/IdeaProjects/report7/src/main/java/jp/ac/urryukyu/ie/e165725/list3.txt");
     }
 }
