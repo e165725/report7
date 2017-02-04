@@ -11,14 +11,14 @@ import java.io.IOException;
 
 
 public class Firstfile {
-    String[] list1 = new String[71];
+
+    String[] list1 = new String[71];//リストの用意
     public void fileRead(String filePath){
         FileReader fr = null;
         BufferedReader br = null;
         try {
             fr = new FileReader("/Users/okuhamamasakiyo/IdeaProjects/report7/src/main/java/jp/ac/urryukyu/ie/e165725/list1.txt");
             br = new BufferedReader(fr);
-
             String line;
             for(int i = 0;i<=71;i++) {
                 while ((line = br.readLine()) != null) {

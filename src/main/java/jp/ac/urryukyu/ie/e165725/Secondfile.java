@@ -1,6 +1,5 @@
 package jp.ac.urryukyu.ie.e165725;
 
-import java.io.File;
 import java.io.FileReader;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
